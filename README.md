@@ -10,11 +10,11 @@ Desarrollar una herramienta de software que automatice la creación de contrase�
 
 ## Descripción de Funcionalidades
 
-1. **Configuración de Parámetros:** Permite al usuario definir la longitud de la contraseña (validando que sea un mínimo de 8 caracteres por seguridad).
+1. **Configuración de Parámetros:** Permitir al usuario definir la longitud de la contraseña (validando que sea un mínimo de 8 caracteres por seguridad).
 
 2. **Filtros Personalizados:** Integración de opciones lógicas para incluir letras mayúsculas, números y símbolos especiales.
 
-3. **Generación Aleatoria:** Utiliza estructuras iterativas (bucles) para compilar una cadena segura basada en las elecciones del usuario.
+3. **Generación Aleatoria:** Utilizar estructuras iterativas (bucles) para compilar una cadena segura basada en las elecciones del usuario.
 
 4. **Validación de Errores:** El sistema detecta entradas inválidas (como ingresar letras en lugar de números) y vuelve a preguntar sin cerrarse.
 
