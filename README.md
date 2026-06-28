@@ -1,7 +1,7 @@
 # Proyecto Integrador: Generador Seguro de Contraseñas
 
 **Nombre del Proyecto:** El impacto de las nuevas tecnologías en la sociedad: Solución de Ciberseguridad
-**Integrantes:** Fabian Gonzalez
+**Nmobre y apellido** Fabian Gonzalez
 **Fecha:** 28 de Junio de 2026
 
 ## Objetivo del Sistema
