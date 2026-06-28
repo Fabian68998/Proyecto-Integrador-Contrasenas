@@ -1,7 +1,7 @@
 # Proyecto Integrador: Generador Seguro de Contraseñas
 
 **Nombre del Proyecto:** El impacto de las nuevas tecnologías en la sociedad: Solución de Ciberseguridad
-**Integrantes:** [Fabian Gonzalez]
+**Integrantes:** Fabian Gonzalez
 **Fecha:** 28 de Junio de 2026
 
 ## Objetivo del Sistema
@@ -33,3 +33,11 @@ graph TD
     F --> G[Generar contraseña aleatoria iterando con bucle FOR]
     G --> H[/Mostrar contraseña en pantalla/]
     H --> I([Fin])
+graph TD
+    UI[Capa de Presentación / Interfaz UI] -->|Envía Parámetros| LN(Capa de Lógica de Negocio)
+    LN -->|Valida y Genera| LN
+    LN -->|Envía Cadena Generada| OUT[Capa de Servicios y Salida Output]
+    
+    style UI fill:#d4e6f1,stroke:#2874a6,stroke-width:2px
+    style LN fill:#f9e79f,stroke:#b7950b,stroke-width:2px
+    style OUT fill:#d5f5e3,stroke:#1d8348,stroke-width:2px
